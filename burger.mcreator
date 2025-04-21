@@ -1,0 +1,152 @@
+{
+  "mod_elements": [
+    {
+      "name": "Hamburger",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hamburger",
+      "metadata": {
+        "files": [
+          "src/main/java/com/noobie/burger/item/HamburgerItem.java",
+          "src/main/resources/assets/burger/models/item/hamburger.json",
+          "src/main/resources/assets/burger/items/hamburger.json"
+        ]
+      },
+      "path": "~/Hamburger"
+    },
+    {
+      "name": "Cheese",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/burger/items/cheese.json",
+          "src/main/java/com/noobie/burger/item/CheeseItem.java",
+          "src/main/resources/assets/burger/models/item/cheese.json"
+        ]
+      },
+      "path": "~/Cheese"
+    },
+    {
+      "name": "Cheeseburger",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheeseburger",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/burger/items/cheeseburger.json",
+          "src/main/resources/assets/burger/models/item/cheeseburger.json",
+          "src/main/java/com/noobie/burger/item/CheeseburgerItem.java"
+        ]
+      },
+      "path": "~/Cheeseburger"
+    },
+    {
+      "name": "BurgersTab",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "burgers_tab",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "HamburgerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hamburger_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/burger/recipe/hamburger.json"
+        ]
+      },
+      "path": "~/Hamburger"
+    },
+    {
+      "name": "CheeseburgerRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheeseburger_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/burger/recipe/cheeseburger.json"
+        ]
+      },
+      "path": "~/Cheeseburger"
+    },
+    {
+      "name": "CheeseRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cheese_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/burger/recipe/cheese.json"
+        ]
+      },
+      "path": "~/Cheese"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "ru_ru": {
+      "item.burger.hamburger": "Гамбургер",
+      "item.burger.cheeseburger": "Чизбургер",
+      "item_group.burger.burgers_tab": "Бургеры",
+      "item.burger.cheese": "Сыр"
+    },
+    "en_us": {
+      "item.burger.hamburger": "Hamburger",
+      "item.burger.cheeseburger": "Cheeseburger",
+      "item_group.burger.burgers_tab": "Burgers",
+      "item.burger.cheese": "Cheese"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Hamburger",
+        "children": []
+      },
+      {
+        "name": "Cheeseburger",
+        "children": []
+      },
+      {
+        "name": "Cheese",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "burger",
+    "modName": "Burger Mod",
+    "version": "0.1.2",
+    "description": "Adds burgers and their ingredients!",
+    "author": "noobiezt0",
+    "websiteURL": "https://noobiezt0.com",
+    "license": "MIT License",
+    "serverSideOnly": true,
+    "modPicture": "logo",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "credits": "MCreator",
+    "modElementsPackage": "com.noobie.burger"
+  },
+  "mcreatorVersion": 202500113416
+}
