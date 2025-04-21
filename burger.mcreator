@@ -133,10 +133,10 @@
   "workspaceSettings": {
     "modid": "burger",
     "modName": "Burger Mod",
-    "version": "0.1.2",
+    "version": "0.1.2-hotfix",
     "description": "Adds burgers and their ingredients!",
     "author": "noobiezt0",
-    "websiteURL": "https://noobiezt0.com",
+    "websiteURL": "https://github.com/noobiezt0/burger",
     "license": "MIT License",
     "serverSideOnly": true,
     "modPicture": "logo",
